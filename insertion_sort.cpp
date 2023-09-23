@@ -1,3 +1,5 @@
+#include<iostream>
+using namespace std;
 //------------------------------------>>>>>>>>>>>>>>>>>insertion sort>>>>>>>>>>_--------------
 void insertion_sort(int arr1[],int n1)
 {
@@ -13,4 +15,16 @@ void insertion_sort(int arr1[],int n1)
         }
         arr1[j+1]=key;
      }
+}
+display_array(int arr[], int n){
+   for(int i=0; i<n; i++){
+      cout<<arr[i]<<" ";
+   }
+}
+int main(){
+   int arr[]={2,6,3,5,1,8,9,7,4,10}; //unsorted array
+   int n=sizeof(arr)/sizeof(arr[0]);
+   insertion_sort(arr, n); //call bubble sorting funtion
+   display_array(arr,n); //printing array on screen
+ return 0;
 }
