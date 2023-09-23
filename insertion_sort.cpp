@@ -24,7 +24,7 @@ display_array(int arr[], int n){
 int main(){
    int arr[]={2,6,3,5,1,8,9,7,4,10}; //unsorted array
    int n=sizeof(arr)/sizeof(arr[0]);
-   insertion_sort(arr, n); //call bubble sorting funtion
+   insertion_sort(arr, n); //call insertion funtion
    display_array(arr,n); //printing array on screen
  return 0;
 }
