@@ -14,7 +14,7 @@ void selection_sort(int arr[], int n)
             swap(arr[min_index], arr[i]);
     }
 }
-display_array(int arr[], int n){
+void display_array(int arr[], int n){
    for(int i=0; i<n; i++){
       cout<<arr[i]<<" ";
    }
