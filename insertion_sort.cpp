@@ -16,7 +16,7 @@ void insertion_sort(int arr1[],int n1)
         arr1[j+1]=key;
      }
 }
-display_array(int arr[], int n){
+void display_array(int arr[], int n){
    for(int i=0; i<n; i++){
       cout<<arr[i]<<" ";
    }
